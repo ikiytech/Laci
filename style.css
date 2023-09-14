@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #330000;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #660000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: left;
+    color: #FF0000;
+}
+
+.buttons {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #CC0000;
+}
+
+.data-container {
+    background-color: #FF3333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.data-container h2 {
+    margin-top: 0;
+}
+
+.data-container label {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.data-container input[type="text"],
+.data-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.data-container input[type="text"] {
+    background-color: #FFFFFF;
+}
+
+.total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.selisih {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
